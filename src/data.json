@@ -1,0 +1,51 @@
+{
+    "products":[
+        {
+          "_id": "food1",
+          "title": "M&M's Peanut Butter Milk Chocolate Candy",
+          "image": "/images/food1.jpg",
+          "description": "M&M's Peanut Butter Milk Chocolate Candy, Party Size, 34 oz Bag",
+          "price": 9.88,
+          "categoryFood": ["Eat"]
+        },
+        {
+            "_id": "food2",
+            "title": "HERSHEY'S Milk Chocolate Candy",
+            "image": "/images/food2.jpg",
+            "description": "HERSHEY'S Milk Chocolate Candy, Individually Wrapped, 1.55 oz, Bars (6 Count)",
+            "price": 3.48,
+            "categoryFood": ["Eat"]
+          },
+          {
+            "_id": "food1",
+            "title": "Chocolate, Candy",
+            "image": "/images/food1.jpg",
+            "description": "M&M's Peanut Butter Milk Chocolate Candy, Party Size, 34 oz Bag",
+            "price": 9.88,
+            "categoryFood": ["Eat"]
+          },
+          {
+            "_id": "food1",
+            "title": "Chocolate, Candy",
+            "image": "/images/food1.jpg",
+            "description": "M&M's Peanut Butter Milk Chocolate Candy, Party Size, 34 oz Bag",
+            "price": 9.88,
+            "categoryFood": ["Eat"]
+          }, {
+            "_id": "food1",
+            "title": "Chocolate, Candy",
+            "image": "/images/food1.jpg",
+            "description": "M&M's Peanut Butter Milk Chocolate Candy, Party Size, 34 oz Bag",
+            "price": 9.88,
+            "categoryFood": ["Eat"]
+          },
+          {
+            "_id": "food1",
+            "title": "Chocolate, Candy",
+            "image": "/images/food1.jpg",
+            "description": "M&M's Peanut Butter Milk Chocolate Candy, Party Size, 34 oz Bag",
+            "price": 9.88,
+            "categoryFood": ["Eat"]
+          }
+    ]
+}
