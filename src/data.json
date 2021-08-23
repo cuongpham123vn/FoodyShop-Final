@@ -1,51 +1,76 @@
 {
-    "products":[
-        {
-          "_id": "food1",
-          "title": "M&M's Peanut Butter Milk Chocolate Candy",
-          "image": "/images/food1.jpg",
-          "description": "M&M's Peanut Butter Milk Chocolate Candy, Party Size, 34 oz Bag",
-          "price": 9.88,
-          "categoryFood": ["Eat"]
-        },
-        {
-            "_id": "food2",
-            "title": "HERSHEY'S Milk Chocolate Candy",
-            "image": "/images/food2.jpg",
-            "description": "HERSHEY'S Milk Chocolate Candy, Individually Wrapped, 1.55 oz, Bars (6 Count)",
-            "price": 3.48,
-            "categoryFood": ["Eat"]
-          },
-          {
-            "_id": "food1",
-            "title": "Chocolate, Candy",
-            "image": "/images/food1.jpg",
-            "description": "M&M's Peanut Butter Milk Chocolate Candy, Party Size, 34 oz Bag",
-            "price": 9.88,
-            "categoryFood": ["Eat"]
-          },
-          {
-            "_id": "food1",
-            "title": "Chocolate, Candy",
-            "image": "/images/food1.jpg",
-            "description": "M&M's Peanut Butter Milk Chocolate Candy, Party Size, 34 oz Bag",
-            "price": 9.88,
-            "categoryFood": ["Eat"]
-          }, {
-            "_id": "food1",
-            "title": "Chocolate, Candy",
-            "image": "/images/food1.jpg",
-            "description": "M&M's Peanut Butter Milk Chocolate Candy, Party Size, 34 oz Bag",
-            "price": 9.88,
-            "categoryFood": ["Eat"]
-          },
-          {
-            "_id": "food1",
-            "title": "Chocolate, Candy",
-            "image": "/images/food1.jpg",
-            "description": "M&M's Peanut Butter Milk Chocolate Candy, Party Size, 34 oz Bag",
-            "price": 9.88,
-            "categoryFood": ["Eat"]
-          }
-    ]
+  "products": [
+    {
+      "_id": "food1",
+      "title": "M&M's Peanut Butter Milk Chocolate Candy",
+      "image": "/images/food1.jpg",
+      "description": "M&M's Peanut Butter Milk Chocolate Candy, Party Size, 34 oz Bag",
+      "price": 17.0,
+      "categoryFood": ["Eat"]
+    },
+    {
+      "_id": "food2",
+      "title": "Coca Cola soft drink 350ml",
+      "image": "/images/food2.jpg",
+      "description": "Enjoy Thirst and Refresh Yourself",
+      "price": 2.49,
+      "categoryFood": ["Drink"]
+    },
+    {
+      "_id": "food3",
+      "title": "GALA APPLES New Zealand-1KG",
+      "image": "/images/food3.jpg",
+      "description": "Gala apples are taller, thinner, and less wise than other apples. They are a light red color with more yellow on their skin than other red varieties, and they taste mildly sweet and crisp",
+      "price": 5.9,
+      "categoryFood": ["Fruit"]
+    },
+    {
+      "_id": "food4",
+      "title": "HERSHEY'S Milk Chocolate Candy",
+      "image": "/images/food4.jpg",
+      "description": "HERSHEY'S Milk Chocolate Candy, Individually Wrapped, 1.55 oz, Bars (6 Count)",
+      "price": 9.88,
+      "categoryFood": ["Eat"]
+    },
+    {
+      "_id": "food5",
+      "title": "KIWI New Zealand-1KG",
+      "image": "/images/food5.jpg",
+      "description": "Kiwis are a nutrient-dense food — they are rich in in nutrients and low in calories",
+      "price": 6.08,
+      "categoryFood": ["Fruit"]
+    },
+    {
+      "_id": "food6",
+      "title": "7 UP soft drink 330ml",
+      "image": "/images/food6.jpg",
+      "description": "7 Up contains a lot of vitamin C for a healthy body and a cheerful spirit every day, is a carbonated beverage with a cool natural lemon flavor, giving you a feeling of refreshment",
+      "price": 1.4,
+      "categoryFood": ["Drink"]
+    },
+    {
+      "_id": "food7",
+      "title": "Chocolate Lava Cake",
+      "image": "/images/food7.jpg",
+      "description": "Signature Kitchens Molten Chocolate Lava Cake from Albertsons",
+      "price": 28.44,
+      "categoryFood": ["Eat"]
+    },
+    {
+      "_id": "food8",
+      "title": "Pepsi Thailand soft drink 330ml",
+      "image": "/images/food8.jpg",
+      "description": "Instant refreshment, It's too much Pepsi",
+      "price": 1.25,
+      "categoryFood": ["Drink"]
+    },
+    {
+      "_id": "food9",
+      "title": "LIMA ORANGES-3KG",
+      "image": "/images/food9.jpg",
+      "description": "Lima oranges are also known as acidless oranges because they’re super sweet with minimal acidity or tartness",
+      "price": 5.43,
+      "categoryFood": ["Fruit"]
+    }
+  ]
 }
