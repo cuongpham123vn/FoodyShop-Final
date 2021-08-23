@@ -13,6 +13,7 @@ class App extends React.Component {
           <div className="grid-container">
             <header>
               <Link to="/">Foody Shop</Link>
+              <Link to="/admin">Admin</Link>
             </header>
 
             <main>
