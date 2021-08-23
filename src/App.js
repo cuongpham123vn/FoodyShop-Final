@@ -23,7 +23,7 @@ class App extends React.Component {
             </main>
 
             <footer>
-              All Rights Reserved.© Foody Shop 2021
+              All Rights Reserved.© Foody-Shop 2021
             </footer>
 
           </div>
