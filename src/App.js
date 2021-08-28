@@ -15,15 +15,6 @@ class App extends React.Component {
           <div className="grid-container">
             <header>
               <Link to="/">Foody Shop</Link>
-
-              <Link to="/about">About</Link>
-             
-              <Link to="/contact">Contact</Link>
-              
-              <Link to="/admin">Admin</Link>
-
-              
-
               <Link to="/about">About</Link>
               <Link to="/contact">Contact</Link>
               <Link to="/admin">Admin</Link>
