@@ -10,7 +10,7 @@ app.use("/", express.static(__dirname + "/build"));
 app.get("/", (req, res) => res.sendFile(__dirname + "/build/index.html"));
 
 mongoose.connect(
-    process.env.MONGODB_URL || "mongodb://localhost/foodshop-db", {
+    process.env.MONGODB_URL || "mongodb://localhost/foodshop-final-db", {
     useNewUrlParser: true,
     useCreateIndex: true,
     useUnifiedTopology: true,

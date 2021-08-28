@@ -53,6 +53,15 @@ header {
   color: #ffffff;
   padding: 0.5rem;
   text-decoration: none;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  position: sticky;
+  width: 100%;
+  z-index: 1;
 }
 
 header a {
@@ -309,3 +318,36 @@ td {
 th {
   text-align: left;
 }
+
+.AboutScreen {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  margin-left: 20px;
+}
+
+.abouth2 {
+  margin-left: 20px;
+  display: block;
+  padding-top: 20px;
+}
+
+.abouth21 {
+  margin-left: 20px;
+  display: block;
+}
+
+.info {
+  display: block;
+  word-spacing: 3px;
+  margin: 0 20px;
+  text-align: center;
+}
+
+.info1 {
+  display: flex;
+  word-spacing: 3px;
+  margin: 0 20px;
+  justify-content: center;
+}
+
