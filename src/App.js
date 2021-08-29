@@ -23,7 +23,7 @@ class App extends React.Component {
             <main>
               <Route path="/contact" component={ContactScreen} />
               <Route path="/about" component={AboutScreen} />
-              <Route path="/admin" component={AdminScreen} />
+              <Route path="/admin" component={AdminScreen}/>
               <Route path="/" component={HomeScreen} exact/>
            
             </main>
