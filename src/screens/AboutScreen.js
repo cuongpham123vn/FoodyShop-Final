@@ -5,29 +5,17 @@ import { FaShoppingCart, FaPen, FaSmileBeam, FaFacebook, FaInstagramSquare, FaTw
 export default class AboutScreen extends Component {
     render() {
         return (
-            <div className="abouth2">
+            <div className="content1">
+                <div className="main1">
+                <div className="abouth2">
                 <h2>Our Team</h2>
                 <div className="AboutScreen">
+                   
                     <div className="info">
                         <img src="images/user.png" alt="user"></img>
 
                         <p><b>Pham Ngoc Cuong</b></p>
-                        <p>Operator and Founder</p>
-
-                    </div>
-
-                    <div className="info">
-                        <img src="images/user.png" alt="user"></img>
-
-                        <p><b>Pham Ngoc Cuong</b></p>
-                        <p>Developer</p>
-                    </div>
-
-                    <div className="info">
-                        <img src="images/user.png" alt="user"></img>
-
-                        <p><b>Pham Ngoc Cuong</b></p>
-                        <p>Tester</p>
+                        <p>Developer and Tester</p>
                     </div>
                 </div>
                 <hr></hr>
@@ -59,6 +47,10 @@ export default class AboutScreen extends Component {
                 <FaFacebook size={40}/>&nbsp;<FaInstagramSquare size={40}/>&nbsp;<FaTwitter size={40}/>
                 </div>
             </div>
+                </div>
+            </div>
+
+           
 
 
         )
