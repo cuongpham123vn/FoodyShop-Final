@@ -23,6 +23,7 @@ class Orders extends Component {
               <th>NAME</th>
               <th>EMAIL</th>
               <th>ADDRESS</th>
+              <th>TELEPHONE<th>
               <th>ITEMS</th>
             </tr>
           </thead>
@@ -35,6 +36,7 @@ class Orders extends Component {
                 <td>{order.name}</td>
                 <td>{order.email}</td>
                 <td>{order.address}</td>
+                <td>{order.telephone}</td>
                 <td>
                   {order.cartItems.map((item) => (
                     <div>
