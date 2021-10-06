@@ -23,7 +23,7 @@ class Orders extends Component {
               <th>NAME</th>
               <th>EMAIL</th>
               <th>ADDRESS</th>
-              <th>TELEPHONE<th>
+              <th>TELEPHONE</th>
               <th>ITEMS</th>
             </tr>
           </thead>
