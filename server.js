@@ -55,6 +55,7 @@ const Order = mongoose.model(
             email: String,
             name: String,
             address: String,
+            telephone: Number,
             total: Number,
             cartItems: [
                 {
@@ -75,6 +76,7 @@ app.post("/api/orders", async (req, res) => {
     if (!req.body.name ||
         !req.body.email ||
         !req.body.address ||
+        !req.body.telephone ||
         !req.body.total ||
         !req.body.cartItems
     ) {
