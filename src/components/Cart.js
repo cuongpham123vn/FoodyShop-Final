@@ -14,6 +14,7 @@ class Cart extends Component {
             name: "",
             email: "",
             address: "",
+            telephone: "",
             showCheckout: false,
         };
     }
@@ -26,6 +27,7 @@ class Cart extends Component {
             name: this.state.name,
             email: this.state.email,
             address: this.state.address,
+            telephone: this.state.telephone,
             cartItems: this.props.cartItems,
             total: this.props.cartItems.reduce((a, c) => a + c.price * c.count, 0),
         };
@@ -67,6 +69,10 @@ class Cart extends Component {
                                         <li>
                                             <div>Address:</div>
                                             <div>{order.address}</div>
+                                        </li>
+                                        <li>
+                                            <div>Telephone:</div>
+                                            <div>{order.telephone}</div>
                                         </li>
                                         <li>
                                             <div>Date:</div>
@@ -160,6 +166,15 @@ class Cart extends Component {
                                                         name="address"
                                                         type="text"
                                                         placeholder="Your address" required
+                                                        onChange={this.handleInput}>
+                                                    </input>
+                                                </li>
+                                                <li>
+                                                    <lablel>Telephone</lablel>
+                                                    <input
+                                                        name="telephone"
+                                                        type="number"
+                                                        placeholder="Your telephone" required
                                                         onChange={this.handleInput}>
                                                     </input>
                                                 </li>
