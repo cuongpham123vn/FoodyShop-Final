@@ -8,6 +8,7 @@ HTML {
 body, #root {
   height: 100vh;
   margin: 0;
+  font-size: 120%
 }
 
 body, input, select, button, textarea {
