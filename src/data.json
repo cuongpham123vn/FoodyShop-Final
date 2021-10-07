@@ -85,15 +85,15 @@
       "title": "Aquafina Water",
       "image": "/images/food11.jpg",
       "description": "Aquafina delicious taste of purity",
-      "price": 10,
+      "price": 1.5,
       "categoryFood": ["Drink"]
     },
-    {
+      {
       "_id": "food12",
-      "title": "Black Grapes",
-      "image": "/images/food12.jpg",
-      "description": "Black Monukka Grapes are purple, seedless berries that set in loose clusters which ripen into crisp and sweet fruit that's great for fresh eating, wine & grapes",
-      "price": 10,
+      "title": "Fresh Organic Strawberry",
+      "image": "/images/food12.jfif",
+      "description": "Being a leader in the industry, we are engaged in offering a qualitative range of Fresh Organic Strawberry",
+      "price": 12,
       "categoryFood": ["Fruit"]
     }
   ]
