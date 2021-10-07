@@ -71,6 +71,30 @@
       "description": "Lima oranges are also known as acidless oranges because they’re super sweet with minimal acidity or tartness",
       "price": 5.43,
       "categoryFood": ["Fruit"]
+    },
+    {
+      "_id": "food10",
+      "title": "Itou Cookies",
+      "image": "/images/food10.jpg",
+      "description": "Cookies are a favorite of many people. This is also an ideal dish in parties, tea parties or for daily snacks. During the holidays, cookies are the first choice to give as gifts to friends and loved ones",
+      "price": 10,
+      "categoryFood": ["Eat"]
+    },
+    {
+      "_id": "food11",
+      "title": "Aquafina Water",
+      "image": "/images/food11.jpg",
+      "description": "Aquafina delicious taste of purity",
+      "price": 10,
+      "categoryFood": ["Drink"]
+    },
+    {
+      "_id": "food12",
+      "title": "Black Grapes",
+      "image": "/images/food12.jpg",
+      "description": "Black Monukka Grapes are purple, seedless berries that set in loose clusters which ripen into crisp and sweet fruit that's great for fresh eating, wine & grapes",
+      "price": 10,
+      "categoryFood": ["Fruit"]
     }
   ]
 }
