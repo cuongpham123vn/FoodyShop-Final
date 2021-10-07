@@ -38,7 +38,7 @@ class Filter extends Component {
                             onChange={(e) => 
                                 this.props.filterProducts(this.props.products, e.target.value)}>
                             <option value="">
-                                ALL
+                                All
                             </option>
                             <option value="Eat">
                                 Eat
