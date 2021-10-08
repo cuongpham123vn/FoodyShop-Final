@@ -17,7 +17,6 @@ export default class ContactScreen extends Component {
 
     handleSubmit(event) {
         alert('A name was submitted: ' + this.state.value);
-        event.preventDefault();
     }
 
     render() {
@@ -63,14 +62,6 @@ export default class ContactScreen extends Component {
                             <input type="submit" value="Submit" />
                         </form>
                         <br></br>  <br></br>  <br></br>
-                        <form>
-                            <label>SIGN UP FOR INFORMATION
-                            <br></br>  <br></br>
-                                <input type="email" placeholder="Email"/>
-                            </label>
-                            <br></br>  <br></br>
-                            <input type="submit" value="Register" />
-                        </form>
                     </div>
                 </div>
             </div>
