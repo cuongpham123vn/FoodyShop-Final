@@ -17,6 +17,7 @@ export default class ContactScreen extends Component {
 
     handleSubmit(event) {
         alert('A name was submitted: ' + this.state.value);
+        event.preventDefault();
     }
 
     render() {
@@ -53,10 +54,10 @@ export default class ContactScreen extends Component {
                         <br></br>  <br></br>  <br></br>
                         <form onSubmit={this.handleSubmit}>
                             <label>
-                                <input type="text" placeholder="Full name" required value={this.state.value} onChange={this.handleChange} />
+                                <input type="text" placeholder="your name" required value={this.state.value} onChange={this.handleChange} />
                             </label> &nbsp;
                           <label>
-                              <input type="text" placeholder="Your comment"/>
+                              <input type="text" placeholder="your comment"/>
                           </label>
                           <br></br>  <br></br>
                             <input type="submit" value="Submit" />
