@@ -17,7 +17,6 @@ class App extends React.Component {
               <Link to="/">Foody Shop</Link>
               <Link to="/about">About</Link>
               <Link to="/contact">Contact</Link>
-              <Link to="/admin">Admin</Link>
             </header>
 
             <main>
