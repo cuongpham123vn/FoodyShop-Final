@@ -17,13 +17,13 @@ class App extends React.Component {
               <Link to="/">Foody Shop</Link>
               <Link to="/about">About</Link>
               <Link to="/contact">Contact</Link>
-              <Link to="/admin"></Link>
+              <Link to="/manage">Manage</Link>
             </header>
 
             <main>
               <Route path="/contact" component={ContactScreen} />
               <Route path="/about" component={AboutScreen} />
-              <Route path="/admin" component={AdminScreen}/>
+              <Route path="/manage" component={AdminScreen}/>
               <Route path="/" component={HomeScreen} exact/>
            
             </main>
